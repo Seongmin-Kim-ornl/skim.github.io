@@ -337,8 +337,8 @@
       <h3>Selected results</h3>
       <ul class="rows">
         <li><span class="when">2026</span><span class="what"><strong>Generative AI that writes quantum circuits for distributed optimization</strong><span>DQAOA-GPT, IEEE QCE26. Best Paper Award, 3rd place.</span></span></li>
-        <li><span class="when">2026</span><span class="what"><strong>Distributed quantum neural networks for scientific discovery and complex optimization</strong><span>npj Computational Materials</span></span></li>
         <li><span class="when">2026</span><span class="what"><strong>A distributed quantum optimization framework (DQOF) for dense, higher-order problems</strong><span>npj Quantum Information, accepted</span></span></li>
+        <li><span class="when">2026</span><span class="what"><strong>Distributed quantum neural networks for scientific discovery and complex optimization</strong><span>npj Computational Materials</span></span></li>
         <li><span class="when">2026</span><span class="what"><strong>Distributed quantum optimization on a quantum-centric supercomputing architecture</strong><span>npj Quantum Information</span></span></li>
         <li><span class="when">2025</span><span class="what"><strong>A benchmark of quantum annealing for combinatorial optimization</strong><span>npj Quantum Information</span></span></li>
         <li><span class="when">2022</span><span class="what"><strong>A transparent radiative cooler designed with quantum computing, then fabricated and measured</strong><span>ACS Energy Letters, Editors’ Choice</span></span></li>
@@ -352,10 +352,11 @@
   <div class="wrap">
     <h2>Publications</h2>
     <div>
+      <p class="legend">* corresponding author &nbsp; + co-first author</p>
       <div class="filters" id="filters" role="group" aria-label="Filter publications by topic"></div>
       <div id="publist" aria-live="polite"></div>
       <noscript><p>The publication list needs JavaScript. Please email me for a full CV.</p></noscript>
-      <p class="legend">* corresponding author &nbsp; + co-first author</p>
+      
 
       <h3>Patents</h3>
       <ul class="plain">
@@ -483,7 +484,7 @@
      u = optional link (DOI or arXiv URL)
    ============================================================ */
 const PUBS = [
-  {y:2026,k:"q",t:"DQAOA-GPT: AI-Accelerated Distributed Quantum Optimization for Combinatorial Problems",a:"S. Kim, A. Rijal, Y. Alexeev, N. Bauer, M. Roetteler, M. Yoon, G. Siopsis, I.-S. Suh",v:"IEEE QCE26",d:"accepted",n:"Best Paper Award, 3rd place"},
+  {y:2026,k:"qd",t:"DQAOA-GPT: AI-Accelerated Distributed Quantum Optimization for Combinatorial Problems",a:"S. Kim, A. Rijal, Y. Alexeev, N. Bauer, M. Roetteler, M. Yoon, G. Siopsis, I.-S. Suh",v:"IEEE QCE26",d:"accepted",n:"Best Paper Award, 3rd place"},
   {y:2026,k:"qd",t:"Distributed Quantum Optimization Framework for Higher-Order Problems with Dense Interactions",a:"S. Kim*, V. R. Pascuzzi, T. S. Humble, T. Beck, S. Hwang, T. Luo*, E. Lee*, I.-S. Suh*",v:"npj Quantum Information",d:"accepted"},
   {y:2026,k:"qd",t:"Advancing scientific discovery and complex optimization through distributed quantum neural networks",a:"S. Kim*, I.-S. Suh*",v:"npj Computational Materials",d:"12, 352"},
   {y:2026,k:"qd",t:"Distributed Quantum Approximate Optimization Algorithm on a Quantum-Centric Supercomputing Architecture",a:"S. Kim*, V. R. Pascuzzi, Z. Xu, T. Luo*, E. Lee*, I.-S. Suh*",v:"npj Quantum Information",d:"12, 147"},
@@ -500,14 +501,14 @@ const PUBS = [
   {y:2025,k:"q",t:"Scaling Hybrid Quantum–HPC Applications with the Quantum Framework",a:"S. Chundury, A. Shehata, S. Kim, M. Meena, C. Lu, K. Gottiparthi, E. Perez, F. Mueller, I.-S. Suh",v:"SC25",d:""},
   {y:2025,k:"q",t:"Practical Scalability of LuGo: Benchmarking the HHL Algorithm Using an Enhanced QPE Algorithm",a:"C. Lu, M. G. Meena, A. Georgiadou, K. Gottiparthi, M. Sandoval, A. C. Perez, P. Lin, I.-S. Suh, S. Kim",v:"IEEE QCE25",d:""},
   {y:2025,k:"qd",t:"Performance Analysis of an Optimization Algorithm for Metamaterial Design on the Integrated High-Performance Computing and Quantum Systems",a:"S. Kim*, I.-S. Suh*",v:"arXiv preprint",d:"arXiv:2405.02211",u:"https://arxiv.org/abs/2405.02211"},
-  {y:2024,k:"qd",t:"Selective Spectral Filter for Energy Saving Window with Radiative Cooling Designed by Quantum Computing-Assisted Optimization",a:"S. Kim, S. Jung, A. Bobbitt, E. Lee*, T. Luo*",v:"Cell Reports Physical Science",d:"5, 101847",n:"Covered by more than 20 news outlets"},
-  {y:2024,k:"qd",t:"Quantum Annealing-Aided Design of Ultrathin-Metamaterials Optical Diode",a:"S. Kim+, S.-J. Park+, S. Moon, Q. Zhang, S. Hwang, S. Kim, E. Lee*, T. Luo*",v:"Nano Convergence",d:"11, 16"},
+  {y:2024,k:"qdx",t:"Selective Spectral Filter for Energy Saving Window with Radiative Cooling Designed by Quantum Computing-Assisted Optimization",a:"S. Kim, S. Jung, A. Bobbitt, E. Lee*, T. Luo*",v:"Cell Reports Physical Science",d:"5, 101847",n:"Covered by more than 20 news outlets"},
+  {y:2024,k:"qdx",t:"Quantum Annealing-Aided Design of Ultrathin-Metamaterials Optical Diode",a:"S. Kim+, S.-J. Park+, S. Moon, Q. Zhang, S. Hwang, S. Kim, E. Lee*, T. Luo*",v:"Nano Convergence",d:"11, 16"},
   {y:2024,k:"d",t:"Machine Learning-Guided Design of Energy Materials",a:"S. Kim, J. Xu, W. Shang, Z. Xu, E. Lee*, T. Luo*",v:"Progress in Energy",d:"6, 4"},
-  {y:2024,k:"d",t:"Quantum-Inspired Genetic Algorithm for Designing Planar Multilayer Photonic Structure",a:"Z. Xu, W. Shang, S. Kim, A. Bobbitt, E. Lee*, T. Luo*",v:"npj Computational Materials",d:"10, 257"},
+  {y:2024,k:"qd",t:"Quantum-Inspired Genetic Algorithm for Designing Planar Multilayer Photonic Structure",a:"Z. Xu, W. Shang, S. Kim, A. Bobbitt, E. Lee*, T. Luo*",v:"npj Computational Materials",d:"10, 257"},
   {y:2024,k:"x",t:"Direct observation and identification of nanoplastics in ocean water",a:"S. Moon, L. Martin, S. Kim, Q. Zhang, R. Zhang, W. Xu*, T. Luo*",v:"Science Advances",d:"10, eadh1675",n:"Covered by more than 20 news outlets"},
   {y:2023,k:"qd",t:"Design of High-Performance Titanium Nitride Metastructure-Based Solar Absorber using Quantum Computing-Assisted Optimization",a:"S. Kim+, S. Wu+, R. Jian, G. Xiong*, T. Luo*",v:"ACS Applied Materials & Interfaces",d:"15, 40606–40613"},
   {y:2023,k:"x",t:"Superhydrophilic Modification of a Polypropylene Depth Filter for Efficient Oil–Water Separation",a:"H. Park, J.-W. Lee, S. Kim, K. Kim, Y. Kim, W. Hwang*",v:"Korean Society for Precision Engineering",d:"40, 599–605"},
-  {y:2022,k:"qd",t:"High-Performance Transparent Radiative Cooler Designed by Quantum Computing",a:"S. Kim, W. Shang, S. Moon, T. Pastega, E. Lee*, T. Luo*",v:"ACS Energy Letters",d:"7, 4134–4141",n:"Editors’ Choice, covered by more than 60 news outlets"},
+  {y:2022,k:"qdx",t:"High-Performance Transparent Radiative Cooler Designed by Quantum Computing",a:"S. Kim, W. Shang, S. Moon, T. Pastega, E. Lee*, T. Luo*",v:"ACS Energy Letters",d:"7, 4134–4141",n:"Editors’ Choice, covered by more than 60 news outlets"},
   {y:2021,k:"x",t:"A Perspective on Plasmonic Nanobubbles",a:"S. Moon, Q. Zhang, Z. Xu, D. Huang, S. Kim, J. Schiffbauer*, E. Lee*, T. Luo*",v:"The Journal of Physical Chemistry C",d:"125, 25357–25368"},
   {y:2021,k:"x",t:"Robust superhydrophilic depth filter and oil/water separation device with pressure control system for continuous oily water treatment on a large scale",a:"S. Kim, H. Cho, W. Hwang*",v:"Separation and Purification Technology",d:"256, 117779"},
   {y:2021,k:"x",t:"One-step versatile fabrication of superhydrophilic filters for the efficient purification of oily water",a:"S. Kim, S. Woo, H. Park, W. Hwang*",v:"ACS Omega",d:"6, 3345"},
