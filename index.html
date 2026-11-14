@@ -68,20 +68,20 @@
   /* ---------- hero ---------- */
   .hero { padding: 76px 0 84px; }
   .hero .wrap { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 72px; align-items: center; }
-  .hero h1 { font-size: clamp(52px, 8.4vw, 104px); font-weight: 800; letter-spacing: -0.04em; line-height: 0.94; }
-  .hero-role { font-family: var(--sans); font-size: 19px; font-weight: 600; margin: 26px 0 4px; }
+  .hero h1 { font-size: clamp(40px, 5vw, 62px); font-weight: 800; letter-spacing: -0.03em; line-height: 1.02; }
+  .hero-role { font-family: var(--sans); font-size: 19px; font-weight: 600; margin: 18px 0 4px; }
   .hero-org { font-family: var(--sans); font-size: 17px; color: var(--muted); margin: 0 0 24px; }
   .hero-lede { font-size: 21px; line-height: 1.55; max-width: 34em; margin-bottom: 30px; }
-  .actions { display: flex; flex-wrap: wrap; gap: 12px; font-family: var(--sans); }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; font-family: var(--sans); }
   .btn {
-    display: inline-block; padding: 12px 20px; border-radius: 8px;
-    font-size: 16px; font-weight: 600; text-decoration: none;
-    border: 1.5px solid var(--ink); color: var(--ink); background: transparent; cursor: pointer;
+    display: inline-block; padding: 9px 16px; border-radius: 8px;
+    font-size: 15px; font-weight: 600; text-decoration: none;
+    border: 1px solid var(--line); color: var(--ink); background: var(--panel); cursor: pointer;
     font-family: var(--sans);
   }
-  .btn:hover { background: var(--ink); color: #fff; }
+  .btn:hover { border-color: var(--teal); color: var(--teal); }
   .btn.solid { background: var(--teal); border-color: var(--teal); color: #fff; }
-  .btn.solid:hover { background: var(--ink); border-color: var(--ink); }
+  .btn.solid:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
 
   /* illustration panels (hero circuit, research figures) */
   .fig { margin: 0; font-family: var(--sans); min-width: 0; }
@@ -246,7 +246,7 @@
 <section class="hero" id="top">
   <div class="wrap">
     <div>
-      <h1>Seongmin<br>Kim</h1>
+      <h1>Seongmin Kim</h1>
       <p class="hero-role">Research Scientist, Quantum HPC Systems</p>
       <p class="hero-org">National Center for Computational Sciences, Oak Ridge National Laboratory</p>
       <p class="hero-lede">I discover materials with quantum computing, AI, and high-performance computing, taking on design problems that are hard for classical computers alone.</p>
