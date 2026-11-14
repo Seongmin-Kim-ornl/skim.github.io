@@ -72,13 +72,14 @@
   .hero-role { font-family: var(--sans); font-size: 19px; font-weight: 600; margin: 18px 0 4px; }
   .hero-org { font-family: var(--sans); font-size: 17px; color: var(--muted); margin: 0 0 24px; }
   .hero-lede { font-size: 21px; line-height: 1.55; max-width: 34em; margin-bottom: 30px; }
-  .actions { display: flex; flex-wrap: wrap; gap: 10px; font-family: var(--sans); }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; font-family: var(--sans); }
   .btn {
-    display: inline-block; padding: 9px 16px; border-radius: 8px;
-    font-size: 15px; font-weight: 600; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 7px; padding: 8px 12px; border-radius: 8px;
+    font-size: 14.5px; font-weight: 600; text-decoration: none;
     border: 1px solid var(--line); color: var(--ink); background: var(--panel); cursor: pointer;
     font-family: var(--sans);
   }
+  .btn svg { width: 16px; height: 16px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
   .btn:hover { border-color: var(--teal); color: var(--teal); }
   .btn.solid { background: var(--teal); border-color: var(--teal); color: #fff; }
   .btn.solid:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
